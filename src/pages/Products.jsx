@@ -1,7 +1,11 @@
 import React from "react"
 
 function Products() {
-  return <div>Products</div>
+  return (
+    <React.Fragment>
+      <div>Products</div>
+    </React.Fragment>
+  )
 }
 
 export default Products
